@@ -1,0 +1,227 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    color: var(--wi);
+    }
+    
+    
+    
+    /* Page Colors */
+    :root{
+    --light-violet: #fd00f0;
+    --violet: #1b1540;
+    --dark-violet: #140925;
+    --wi: 	#f6f6f6;
+    --yel: #ebdc0e;
+    --ara: #f4a722;
+    --gry: #212529;
+    }
+
+    /* Text-Color */
+
+    .text-we{
+      color: var(--wi);
+    }
+
+    .text-yel{
+      color: var(--yel);
+    }
+    
+    .text-violet{
+      color: var(--violet);
+    }
+
+    /* Backgrounds */
+    .bg-1{
+        background-image: url(Media/bg-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-2{
+        background-image: url(Media/bg-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .bg-3{
+        background-image: url(Media/bg-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-violet{
+        background-color: var(--violet);
+    }
+
+    .bg-dark-violet{
+        background-color: var(--dark-violet);
+    }
+
+    .bg-gry{
+      background-color: var(--gry);
+    }
+
+
+    /* Header */
+    /* Button */
+
+.header{
+    height: 100vh;
+}
+    .btn-cust{
+        color: var(--yel);
+        border: solid var(--yel) 1px;
+        border-radius: 35px;
+        letter-spacing: 1px;
+        
+    }
+    
+    .img-logo{
+    width: 25%;
+    margin-bottom: 40px;
+    }
+    
+    .img-cons{
+    max-width: 400px;
+        height: 550px;
+        margin-top: 100px;
+        
+    }
+    
+    .icon-cust{
+        color: var(--yel);
+        
+    }
+    
+    .calendar{
+    width: 60%;
+    
+    }
+    /* Section 1 */
+    .sect-1{
+        height: auto;
+    }
+    
+    /* Form Section */
+
+    .time-form{
+        color: var(--wi);
+
+    }
+
+    .form {
+        background-color: var(--violet);
+        border-radius: 20px;
+        box-sizing: border-box;
+        height: auto;
+        padding: 20px;       
+        margin-top: 80px;
+        width: 500px;
+        position: relative;
+        top: 30px;
+   
+      }
+      
+   
+      
+      
+      .ic1 {
+        margin-top: 40px;
+      }
+      
+      .ic2 {
+        margin-top: 30px;
+      }
+      
+      .input {
+        background-color: var(--violet);
+        border-style: none;
+        border-bottom: 0.5px solid var(--light-violet);
+        box-sizing: border-box;
+        color: #eee;
+        font-size: 18px;
+        height: 100%;
+        outline: 0;
+        padding: 4px 0 0;
+        width: 100%;
+      }
+    
+      .input:focus ~ .cut,
+      .input:not(:placeholder-shown) ~ .cut {
+        transform: translateY(8px);
+      }
+      
+      .placeholder {
+        color: #65657b;
+        font-family: sans-serif;
+        left: 20px;
+        line-height: 14px;
+        pointer-events: none;
+        position: absolute;
+        transform-origin: 0 50%;
+        transition: transform 200ms, color 200ms;
+        top: 20px;
+      }
+      
+     
+      
+      .input:not(:placeholder-shown) ~ .placeholder {
+        color: #808097;
+      }
+      
+     
+      
+      .submit {
+        background-color: var(--yel);
+        border-radius: 50px;
+        border: 0;
+        box-sizing: border-box;
+        color: #000000;
+        cursor: pointer;
+        font-size: 18px;
+        height: 50px;
+        margin-top: 38px;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .submit:active {
+        background-color: var(--ara);
+      }
+
+      .link-form{
+        color: var(--light-violet);
+        text-decoration: none;
+      }
+      
+      /* Section 2 */
+
+      .media-sect-2{
+        width: 400px;
+        max-height: 400px;
+      }
+
+      /* Section 3 */
+
+   .doc-media{
+   max-height: max-content;
+    width: 400px;
+
+   }
+
+   /* footer */
+
+
+
+
+
+
+
+
+    
+    
+    
+    
